@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<body>
+    <h1>Imagem dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/img.p.png" type="image/png">
+    <source media="(max-width: 1000px)" srcset="imagens/img.m.png" type="image/png">
+    <img src="imagens/img.g.png" alt="imagem flexivel">
+</picture>
+
+<h1>Reproduzindo Áudio</h1>
+<p>Vamos aprender a reproduzir áudios em HTML</p>
+<audio preload="auto" controls loop>
+    <source src="midia/Camargue - House of the Gipsies.mp3" type="audio/mp3">
+    <source src="midia/Camargue - House of the Gipsies.mp3" type="audio/ogg">
+    <source src="midia/Camargue - House of the Gipsies.mp3" type="audio/wav">
+    <p>Seu navegador não consegue reproduzir Áudio. <a> <link rel="stylesheet" href="midia/Camargue - House of the Gipsies.mp3"> Baixe o áudio aqui</a></p>
+</audio>
+    
+</body>
+</html>
